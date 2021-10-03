@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description"  content="leap motion, threejs, javascript"/>
+		<meta name="keywords"    content="leap motion, threejs, javascript"/>
+		<title>Leap Motion with Three.js</title>
+		 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<style>
+			#LeapContainer {background: #505050; width:800px; height:600px;}
+		</style>
+		
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-31088961-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+	</script>
+		
+	</head>
+	
+	<body>
+	<script src="../navigator.js"></script>
+	<div class="container"><div class="row"><div class="span12 "><div class="well well-small">
+	
+		<font size=2 face="arial">
+		<hr noshade size="5" align="left">
+		<h3>Leap Motion, ThreeJS</h3>
+		<hr noshade size="5" align="left">
+		
+		<ul class="nav nav-tabs">
+  			<li class="active"><a href="#app" data-toggle="tab">Application</a></li>
+  			<li><a href="#video" data-toggle="tab">Video</a></li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="app">
+            	This is a Leap Motion demo application which I developed using <a href="https://www.leapmotion.com/" target="new"> Leap Motion</a> and  <a href="http://threejs.org/" target="new">ThreeJs</a> JavaScript API.
+            	<br>You would need a Leap Motion controller to try this application out. 
+            	<br>Check the video out, if you do not have one or need help using this app.
+            	<p> 		
+				<div id="LeapContainer"></div>
+				<a href="js/leapthree.js" target="new">JavaScript Source</js></a>
+			</div>
+			<div class="tab-pane fade" id="video">
+				<iframe width="800" height="600" src="https://www.youtube.com/embed/QpdMtP3kxrY" frameborder="0" allowfullscreen></iframe>
+				<br>
+			</div>
+		</div>
+		
+	</div></div><div></div>
+	
+		
+		<script src="js/three.min.js"></script>
+		<script src="js/leap.min.js"></script>
+		<script src="js/helvetiker_regular.typeface.js"></script>
+		<script src="js/leapthree.js"></script>
+		
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

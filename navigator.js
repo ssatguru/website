@@ -11,7 +11,6 @@ document.write("  							<a id='unityLabel' class='dropdown-toggle' role='button
 document.write("  							<ul class='dropdown-menu' role='menu' aria-labelledby='unityLabel'>");
 document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../Unity3D_AngryBots/angrybots.html' target='_top'>AngryBots</a> </li>");
 document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../yofrankie/yofrankie.html' target='_top'>Yo Frankie!</a> </li>");
-document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../Unity3D/main.html' target='_top'>Island</a> </li>");
 document.write("  							</ul>");
 document.write("						</li>");
 
@@ -37,6 +36,7 @@ document.write("								<li role='presentation'><a role='menuitem' tabindex='-1'
 document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../SharpDevelop/main.html' target='_top'>SharpDevelop</a></li>");
 document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../CloudParty/cp_games.html' target='_top' >CloudParty Games</a></li>");
 document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../CloudParty/b2c.html' target='_top'>CloudParty Converter</a></li>");
+document.write("								<li role='presentation'><a role='menuitem' tabindex='-1' href='../Unity3D/main.html' target='_top'>Unity3D Island</a> </li>");
 document.write("  							</ul>");
 document.write("						</li>");
 
